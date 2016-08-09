@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="js/snake.js"></script>
+    </head>
+    <body>
+      <form id="inputForm">
+        Pálya Szélessége:
+        <input type="number" name="canvasWidth" id="canvasWidth" value="400" min="400" max="1400">
+        Pálya Magassága:
+        <input type="number" name="canvasHeight" id="canvasHeight" value="400" min="400" max="1400">
+        Objektumok száma:
+        <input type="number" name="objectNumber" id="objectNumber" value="1" min="1" max="6">
+        <input type="radio" name="obsticles" id="obsticlesRadio" > Tereptárgyak bekapcsolása
+        <input type="button" id="createCanvas" value="Készít">
+        <div id="fps"></div>
+      </form>
+      </canvas>
+    </body>
+</html>
